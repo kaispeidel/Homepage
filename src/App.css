@@ -1,8 +1,8 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 0;
+  text-align: left;
 }
 
 .logo {
@@ -10,6 +10,77 @@
   padding: 1.5em;
   will-change: filter;
 
+
+
+.portfolio-bg {
+  background: #fff;
+  min-height: 100vh;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0;
+  z-index: 100;
+}
+
+.portfolio-container {
+  max-width: 600px;
+  margin: 80px auto 40px auto;
+  padding: 32px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.navbar-logo {
+  color: #5a8dee;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-right: 48px;
+  letter-spacing: 2px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  color: #fff;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.2rem;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar-links li a:hover {
+  color: #5a8dee;
+}
+
+.dropdown .arrow {
+  font-size: 0.9rem;
+  margin-left: 4px;
+}
+
+.navbar-icon {
+  margin-left: 48px;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
 
 .portfolio-container {
   max-width: 600px;
